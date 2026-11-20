@@ -8,7 +8,7 @@ RUN a2enmod rewrite
 
 WORKDIR /var/www/html
 
-COPY index.php /var/www/html/index.php
+COPY ["index 2.php", "/var/www/html/index.php"]
 
 RUN mkdir -p /var/www/html/.data/by_key \
  && chown -R www-data:www-data /var/www/html/.data \
