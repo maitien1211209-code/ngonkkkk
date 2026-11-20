@@ -1,0 +1,13 @@
+
+{
+  "name": "denius/auto-md5",
+  "description": "DENIUS AUTO v10.0 - Sakura Dream",
+  "type": "project",
+  "require": {
+    "php": "^8.2 || ^8.3"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
